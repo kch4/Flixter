@@ -17,6 +17,8 @@ public class Config {
     // the backdrop size to use when fetching images
     String backdropSize;
 
+    public static final String youtube_api_key = "AIzaSyAv0BphiZiYUylpOQa4UJNAdHNGKUqVrbs";
+
     public Config(JSONObject object) throws JSONException {
         // parse images
         JSONObject images = object.getJSONObject("images");

@@ -42,11 +42,12 @@ public class MovieListActivity extends AppCompatActivity {
     MovieAdapter adapter;
     // image config
     Config config;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_movie_list);
-        // initialize the client
+        // Initialize the client
         client = new AsyncHttpClient();
         // Initialize list of movies
         movies = new ArrayList<>();
@@ -56,8 +57,10 @@ public class MovieListActivity extends AppCompatActivity {
         rvMovies = (RecyclerView)findViewById(R.id.rvMovies);
         rvMovies.setLayoutManager(new LinearLayoutManager(this));
         rvMovies.setAdapter(adapter);
+
         // get the configuration on app creation
         getConfiguration();
+
 
     }
 
