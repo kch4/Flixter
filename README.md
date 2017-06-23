@@ -4,7 +4,7 @@
 
 Submitted by: **Kathleen Hu**
 
-Time spent: **7** hours spent in total
+Time spent: **12** hours spent in total
 
 ## User Stories
 
@@ -37,6 +37,8 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
+
+Attempted to add Youtube Video player to play trailers from app, but was not able to successfully build a transition to player.
 
 ## Open-source libraries used
 
